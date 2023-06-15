@@ -27,6 +27,46 @@ export default function BrushChart(props) {
 		xaxis: {
 			type: "datetime",
 		},
+		annotations: {
+			yaxis: [
+				{
+					y: 100,
+					borderColor: "#00E396",
+					label: {
+						borderColor: "#00E396",
+						style: {
+							color: "#fff",
+							background: "#00E396",
+						},
+						text: "This is a test",
+					},
+				},
+				{
+					y: 200,
+					borderColor: "#00E396",
+					label: {
+						borderColor: "#00E396",
+						style: {
+							color: "#fff",
+							background: "#00E396",
+						},
+						text: "This is a test 2",
+					},
+				},
+				{
+					y: 300,
+					borderColor: "#00E396",
+					label: {
+						borderColor: "#00E396",
+						style: {
+							color: "#fff",
+							background: "#00E396",
+						},
+						text: "This is a test 3",
+					},
+				},
+			],
+		},
 	};
 	const options2 = {
 		chart: {
